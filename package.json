@@ -1,0 +1,16 @@
+{
+  "name": "origin-zero",
+  "version": "2.94.0",
+  "description": "ORIGIN ZERO - Open-World Sci-Fi Adventure (Neo-Lagos 2094)",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static web build ready'",
+    "capacitor:init": "npx cap init"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  },
+  "devDependencies": {}
+}
