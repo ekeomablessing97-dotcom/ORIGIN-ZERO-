@@ -1,0 +1,6 @@
+{
+  "appId": "com.originzero.game",
+  "appName": "ORIGIN ZERO",
+  "webDir": ".",
+  "bundledWebRuntime": false
+}
