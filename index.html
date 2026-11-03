@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ORIGIN ZERO - Neo-Lagos 2094</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile-controls.css">
+    <link rel="stylesheet" href="css/nexus.css">
+    <link rel="stylesheet" href="css/npc-character.css">
+    <!-- Babylon.js CDN -->
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="renderCanvas"></canvas>
+        
+        <!-- UI Overlay & HUD -->
+        <div id="hud">
+            <div id="location-tag">SECTOR 7: NEO-LAGOS (2094)</div>
+            <div id="fps-counter">FPS: <span id="fps">0</span></div>
+        </div>
+
+        <!-- Mobile Touch Controls -->
+        <div id="mobile-controls">
+            <div id="joystick-base">
+                <div id="joystick-stick"></div>
+            </div>
+            <div id="action-buttons">
+                <button id="btn-jump" class="action-btn">JUMP</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Scripts -->
+    <script src="js/core/state.js"></script>
+    <script src="js/core/input.js"></script>
+    <script src="js/core/engine.js"></script>
+    <script src="js/entities/player.js"></script>
+    <script src="js/entities/camera.js"></script>
+    <script src="js/world/environment.js"></script>
+    <script src="js/world/neo-lagos.js"></script>
+    <script src="js/systems/characters.js"></script>
+    <script src="js/systems/npc-dialogue.js"></script>
+    <script src="js/systems/missions.js"></script>
+    <script src="js/systems/investigation.js"></script>
+    <script src="js/systems/inventory.js"></script>
+    <script src="js/systems/transport.js"></script>
+    <script src="js/systems/apartment.js"></script>
+    <script src="js/systems/multiplayer.js"></script>
+    <script src="js/systems/advanced-ai.js"></script>
+    <script src="js/systems/regions.js"></script>
+    <script src="js/ui/hud.js"></script>
+    <script src="js/ui/nexus.js"></script>
+</body>
+</html>
